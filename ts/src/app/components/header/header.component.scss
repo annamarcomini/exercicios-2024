@@ -10,3 +10,16 @@
   display: flex;
   align-items: center;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to top, #ee7a3a, #ffb354);
+  height: 68px;
+  min-width: 220px;
+  color: var(--bg-color);
+  font-weight: bold;
+  font-size: 30px;
+  box-shadow: 0 0 12px rgba(115, 110, 110, 0.3);
+}
