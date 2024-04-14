@@ -2,9 +2,21 @@
 <div class="resume-header">
     <span>Resumo</span>
   </div>
-  <div class="resume-content">
+  <div class="resume-content" [ngClass]="{'resume-content': !expanded, 'resume-content-expanded': expanded}">
     <p>
       {{summary}}
     </p> 
   </div>
+  <a
+    (click)="toggleExpanded()"
+    class="btn-show-more"
+    *ngIf="expanded === false"
+    >ver mais</a
+  >
+  <a
+    (click)="toggleExpanded()"
+    class="btn-show-more"
+    *ngIf="expanded === true"
+    >ver menos</a
+  >
   </div>
