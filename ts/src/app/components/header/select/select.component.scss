@@ -1,4 +1,4 @@
-.select-box{
+.select-box {
   margin-right: 20px;
 }
 
@@ -7,7 +7,7 @@ label {
   position: relative;
   display: inline-block;
   &:before {
-    content: '';
+    content: "";
     height: ($height - 5) + px;
     position: absolute;
     right: 7px;
@@ -31,7 +31,8 @@ label {
     height: 0;
     border-style: solid;
     border-width: 6.9px 4px 0 4px;
-    border-color: var(--header-buttonPT-letter-color) transparent transparent transparent;
+    border-color: var(--header-buttonPT-letter-color) transparent transparent
+      transparent;
     pointer-events: none;
   }
   select {
@@ -45,7 +46,7 @@ label {
     height: $height + px;
     background: transparent;
     margin: 0 5px 5px 0;
-    background-image: url('/assets/images/png/language.png'); /* URL do ícone */
+    background-image: url("/assets/images/png/language.png"); /* URL do ícone */
     background-size: 22px; /* Tamanho do ícone */
     background-position: 8px center; /* Posição do ícone */
     background-repeat: no-repeat; /* Não repetir o ícone */

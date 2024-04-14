@@ -1,7 +1,10 @@
 <div class="login-box">
   <div class="login-text">
     <span>Bem vindo!</span>
-    <p>{{userData.email}}</p>
+    <p>{{ userData.email }}</p>
   </div>
-  <app-avatar [notifications]="userData.notifications" [imageURL]="userData.imageURL"></app-avatar>
+  <app-avatar
+    [notifications]="userData.notifications"
+    [imageURL]="userData.imageURL"
+  ></app-avatar>
 </div>
