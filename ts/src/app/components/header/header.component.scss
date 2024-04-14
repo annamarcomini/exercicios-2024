@@ -4,7 +4,8 @@
   align-items: center;
   justify-content: space-between;
   background-color: var(--header-bg-color);
-}
+ }
+
 
 .box-1 {
   display: flex;
@@ -23,3 +24,29 @@
   font-size: 30px;
   box-shadow: 0 0 12px rgba(115, 110, 110, 0.3);
 }
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .texts span {
+    color: var(--header-letter-color);
+    font-size: 14px;
+    margin-bottom: 4px;
+    
+  }
+
+  .texts p {
+    color: var(--header-letter-color);
+    font-size: 22px;
+    margin: 0;
+  }
+
+  .span-1 {
+  color: var(--header-letter-color);
+    font-size: 14px;
+    margin-bottom: 4px
+  }
+  
