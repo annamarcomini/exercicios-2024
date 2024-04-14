@@ -6,6 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./topic.component.scss'],
 })
 export class TopicComponent implements OnInit {
+  showFormTopic = false;
+
+  handleNewTopic(): void {
+    this.showFormTopic = true;
+  }
 
   constructor() {}
 
