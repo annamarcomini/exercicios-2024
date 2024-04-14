@@ -1,4 +1,24 @@
 <div class="topic-box">
- 
+ <div *ngIf="!showFormTopic" class="new-topic">
+    <h1>Compartilhe suas ideias ou dúvidas com os autores!</h1>
+
+    <div class="new-topic-images">
+      <img class="img-1" src="/assets/images/svg/hand.svg" />
+      <img class="img-2" src="/assets/images/svg/quiz.svg" />
+      <img class="img-3" src="/assets/images/svg/idea.svg" />
+    </div>
+    <p>
+      Sabia que o maior estímulo no desenvolvimento científico e cultural é a
+      curiosidade? Deixe seus <br />
+      questionamentos ou sugestões para o autor!
+    </p>
+
+    <div class="btn-create-topic">
+      <button (click)="handleNewTopic()">
+        <img src="/assets/images/svg/create.svg" />criar tópico
+      </button>
+    </div>
+    <div class="line"></div>
+  </div>
 </div>
 
