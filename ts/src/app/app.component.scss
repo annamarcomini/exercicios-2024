@@ -17,3 +17,12 @@
 .content {
   display: flex;
 }
+
+.contentContainer{
+  display: flex;
+  flex-direction: column;
+}
+
+app-content {
+  flex: 1;
+}
