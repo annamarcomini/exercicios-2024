@@ -6,6 +6,11 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./resume.component.scss'],
 })
 export class ResumeComponent implements OnInit {
+  expanded = false;
+  toggleExpanded(): void {
+    this.expanded = !this.expanded;
+  }
+
   @Input() summary!: string;
   constructor() {}
 
