@@ -3,3 +3,30 @@
   height: 100%;
   box-shadow: 0 0 12px rgba(115, 110, 110, 0.3);
 }
+
+.button {
+  align-items: center;
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  border: 0;
+  border-bottom: 3px solid var(--content-margin);
+  height: 34px;
+  width: 220px;
+}
+
+.adornment {
+  position: absolute;
+  left: 0;
+  align-items: start;
+  background: linear-gradient(to top, #ee7a3a, #ffb354);
+  display: flex;
+  width: 5px;
+  height: 33px;
+}
+
+.text-button {
+  margin-left: 24px;
+  color: var(--header-letter-color);
+  text-decoration: none;
+}
