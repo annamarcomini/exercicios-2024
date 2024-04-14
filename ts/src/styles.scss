@@ -1,1 +1,43 @@
-/* You can add global styles to this file, and also import other style files */
+:root {
+  --bg-color: #ffff;
+  --white-200: #F8F8F8;
+  --header-bg-color: #fdf1eb;
+  --header-letter-color: #725C5C;
+  --header-buttonPT-letter-color: #333333;
+  --header-buttonPT-margin: #CCCCCC;
+  --content-title: #ED7839;
+  --content-other-title: #4E4E4E;
+  --content-other-letters-500: #4D4D4D;
+  --content-other-letters-400: #595959;
+  --content-other-letters-300: #5C5C5C;
+  --content-other-letters-200: #757575;
+  --content-other-letters-100: #ADA0A0;
+  --details--header-letter: #4E4E4E;
+  --details--footer: #ADA0A0;
+  --details--margin:#ECECEC;
+  --content-scroll: #BFBFBF;
+  --content-margin: #E7E7E7;
+  --sidebar-header-bg: #EE7A3A #FFB354;
+  --orange: #F48F44
+}
+
+body{
+ margin: 0;
+ padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
