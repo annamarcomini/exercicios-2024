@@ -2,6 +2,7 @@
   margin-left: 43px;
   margin-right: 44px;
   display: flex;
+  flex-direction: column;
 }
 
 .content-header {
@@ -9,6 +10,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-top: 20px;
+
 }
 
 .title-box {
@@ -31,7 +33,6 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
-  background-color:  red;
 }
 
 .button-box {
@@ -114,4 +115,81 @@
 .details-title-box span {
   color: var(--content-title);
   font-size: 14px;
+}
+
+.content-video {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 19px;
+}
+
+.img-box img {
+  width: 783px;
+  height: 439px;
+}
+
+.details-box {
+  display: flex;
+  flex-direction: column;
+  width: 242px;
+  height: 439px;
+  border: 2px solid var(--details--margin);
+}
+
+.details-header {
+  width: 242px;
+  height: 45px;
+  border-bottom: 2px solid var(--details--margin);
+  background-color: var(--header-bg-color);
+  display: flex;
+}
+
+.details-header span {
+  font-size: 20px;
+  height: 20px;
+  color: var(--details--header-letter);
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.details-texts-box {
+  width: 212px;
+  height: 100%;
+  margin-top: 16px;
+  margin-bottom: 14px;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-family: "Quicksand", sans-serif;
+}
+
+.details-texts-box p {
+  font-family: "Quicksand", sans-serif;
+  margin-top: 0;
+  font-size: 12px;
+  color: var(--content-other-letters-300);
+  margin-bottom: 0;
+}
+
+.details-texts-box h1 {
+  font-family: "Quicksand", sans-serif;
+  margin: 0;
+  font-size: 14px;
+  color: var(--content-other-letters-300);
+}
+
+.details-texts-box .parafOne {
+  font-family: "Quicksand", sans-serif;
+  font-size: 14px;
+  color: var(--content-other-letters-300);
+  margin-bottom: 0;
+}
+
+.details-texts-box span {
+  font-size: 12px;
+  color: #ada0a0;
 }
