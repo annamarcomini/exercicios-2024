@@ -1,5 +1,6 @@
 .resume-box {
   margin-top: 30px;
+  margin-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -36,13 +37,38 @@
   overflow: hidden;
 }
 
-.resume-content {
- 
+.resume-content,
+.resume-content-expanded {
+ white-space: pre-wrap;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
 }
 
-.resume-content p {
+.resume-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  max-height: 3 * 1.7em;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.resume-content-expanded {
+  overflow: auto;
+}
+
+.resume-content p,
+.resume-content-expanded p {
   font-family: "Quicksand", sans-serif;
   color: var(--content-other-letters-300);
+}
+
+.resume-box a {
+  color: var(--content-title);
+  padding-bottom: 15px;
+  text-decoration: none;
 }
 
 
