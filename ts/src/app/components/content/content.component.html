@@ -5,7 +5,8 @@
         {{ article.title }}
       </h2>
     </div>
-     <div class="content-buttons-title">
+
+    <div class="content-buttons-title">
       <div class="button-box">
         <div class="download-button">
           <button>
@@ -30,7 +31,32 @@
         <span>COMO CITAR ESSE TRABALHO?</span>
       </div>
     </div>
-    
+  </div>
+
+  <div class="content-video">
+    <div class="img-box">
+      <img src="/assets/images/png/video.png" />
+    </div>
+
+    <div class="details-box">
+      <div class="details-header">
+        <span>Detalhes</span>
+      </div>
+      <div class="details-texts-box">
+        <p>
+          Tipo de Apresentação: <strong>{{ article.type }}</strong
+          ><br />
+          Eixo temático: <strong>{{ article.theme }}</strong
+          ><br />
+          Palavras-chaves:
+          <strong>{{ article.keyWords }}</strong>
+        </p>
+         <br/>
+        <h1><strong>Autores:</strong><br/></h1>
+        <p class="parafOne" *ngFor="let author of article.authors">{{ author }}<br/></p>
+         <br/>
+        <span *ngFor="let local of article.locals"> {{ local }} <br/></span>
+      </div>
+    </div>
   </div>
 </div>
-
