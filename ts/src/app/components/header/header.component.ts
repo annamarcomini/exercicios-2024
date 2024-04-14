@@ -12,6 +12,9 @@ export class HeaderComponent implements OnInit {
     email: string;
     notifications: { user: string; message: string }[];
   };
+  
+  @Input() languages!: { label: string }[];
+  
   constructor() {}
 
   ngOnInit(): void {}

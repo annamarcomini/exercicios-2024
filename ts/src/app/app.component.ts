@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DevChuva';
-
+  languages = [{ label: 'PT, BR' }, { label: 'EN, UK' }, { label: 'EN, US' }];
+  
   userData = {
     imageURL: '/assets/images/png/avatar2.png',
     name: 'Maria Joaquina',
