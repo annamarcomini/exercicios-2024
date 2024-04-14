@@ -1,0 +1,29 @@
+.avatar-box {
+  display: flex;
+  height: 46px;
+}
+
+.img-login img {
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+}
+
+.notification-login {
+  position: relative;
+  margin-left: -11px;
+  margin-bottom: 26px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.text-inside-ball {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--bg-color);
+  font-size: 12px;
+}
