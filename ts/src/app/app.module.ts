@@ -7,6 +7,7 @@ import { CardLoginComponent } from './components/header/card-login/card-login.co
 import { AvatarComponent } from './components/header/avatar/avatar.component';
 import { SelectComponent } from './components/header/select/select.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
     AvatarComponent,
     SelectComponent,
     SidebarComponent,
+    ContentComponent,
   ],
   imports: [BrowserModule],
   providers: [],
