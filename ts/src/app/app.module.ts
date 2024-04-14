@@ -8,6 +8,7 @@ import { AvatarComponent } from './components/header/avatar/avatar.component';
 import { SelectComponent } from './components/header/select/select.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { ContentComponent } from './components/content/content.component';
+import { ResumeComponent } from './components/resume/resume.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ContentComponent } from './components/content/content.component';
     SelectComponent,
     SidebarComponent,
     ContentComponent,
+    ResumeComponent,
   ],
   imports: [BrowserModule],
   providers: [],
