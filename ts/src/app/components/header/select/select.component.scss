@@ -1,0 +1,57 @@
+.select-box{
+  margin-right: 20px;
+}
+
+$height: 36;
+label {
+  position: relative;
+  display: inline-block;
+  &:before {
+    content: '';
+    height: ($height - 5) + px;
+    position: absolute;
+    right: 7px;
+    top: 3px;
+    width: 22px;
+    background: transparent;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    pointer-events: none;
+    display: block;
+  }
+  &:after {
+    content: " ";
+    position: absolute;
+    right: 15px;
+    top: 46%;
+    margin-top: -3px;
+    z-index: 2;
+    pointer-events: none;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6.9px 4px 0 4px;
+    border-color: var(--header-buttonPT-letter-color) transparent transparent transparent;
+    pointer-events: none;
+  }
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 0 20px 0 36px;
+    border: 1px solid var(--header-buttonPT-margin);
+    border-radius: 3px;
+    line-height: $height + px;
+    height: $height + px;
+    background: transparent;
+    margin: 0 5px 5px 0;
+    background-image: url('/assets/images/png/language.png'); /* URL do ícone */
+    background-size: 22px; /* Tamanho do ícone */
+    background-position: 8px center; /* Posição do ícone */
+    background-repeat: no-repeat; /* Não repetir o ícone */
+  }
+}
+//fix for ie 10 later
+select::-ms-expand {
+  display: none;
+}
