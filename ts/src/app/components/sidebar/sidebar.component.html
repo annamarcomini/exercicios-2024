@@ -3,5 +3,14 @@
     <img src="/assets/images/png/dewey.png" />
   </div>
 
+  <div *ngFor="let button of buttons">
+    <button
+      class="button"
+      [ngStyle]="{ 'background-color': button.color }"
+      (click)="changeButtonColor(button)"
+    >
+      <div *ngIf="button.active" class="adornment"></div>
+      <a href="#" class="text-button">{{ button.label }}</a>
+    </button>
+  </div>
 </div>
-
