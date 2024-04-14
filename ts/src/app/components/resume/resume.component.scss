@@ -1,0 +1,48 @@
+.resume-box {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  border: 2px solid var(--details--margin);
+}
+
+.resume-header {
+  width: 100%;
+  height: 45px;
+  border-bottom: 2px solid var(--details--margin);
+  background-color: var(--header-bg-color);
+  display: flex;
+}
+
+.resume-header span {
+  font-size: 20px;
+  height: 20px;
+  color: var(--details--header-letter);
+  font-weight: 600;
+  margin-left: 15px;
+  margin-top: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.resume-content-expanded {
+ white-space: pre-wrap;
+  font-size: 14px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding-right: 15px;
+  overflow: hidden;
+}
+
+.resume-content {
+ 
+}
+
+.resume-content p {
+  font-family: "Quicksand", sans-serif;
+  color: var(--content-other-letters-300);
+}
+
+
