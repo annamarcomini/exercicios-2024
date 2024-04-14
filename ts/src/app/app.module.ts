@@ -5,6 +5,8 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { CardLoginComponent } from './components/header/card-login/card-login.component';
 import { AvatarComponent } from './components/header/avatar/avatar.component';
+import { SelectComponent } from './components/header/select/select.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +14,8 @@ import { AvatarComponent } from './components/header/avatar/avatar.component';
     HeaderComponent,
     CardLoginComponent,
     AvatarComponent,
+    SelectComponent,
+    SidebarComponent,
   ],
   imports: [BrowserModule],
   providers: [],
