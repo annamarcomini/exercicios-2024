@@ -1,1 +1,13 @@
-<p>comments works!</p>
+<div
+  class="comments-container"
+  [ngStyle]="{ 'background-color': answer.role === 'Autor' || answer.role === 'Coautor' ? '#F8F8F8' : '#ffffff' }"
+>
+  <div class="header">
+    <h1>{{ answer.name }}</h1>
+    <span *ngIf="answer.role === 'Autor' || answer.role === 'Coautor'"
+      >{{ answer.role }}<img src="/assets/images/svg/check.svg"
+    /></span>
+  </div>
+  <div class="content">{{ answer.text }}</div>
+</div>
+
