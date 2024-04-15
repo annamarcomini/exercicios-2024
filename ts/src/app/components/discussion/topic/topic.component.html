@@ -21,17 +21,20 @@
     <div class="line"></div>
   </div>
 
-  <div *ngIf="showFormTopic && !showSuccessMessage"  class="form-topic">
+  <div *ngIf="showFormTopic && !showSuccessMessage" class="form-topic">
     <div class="form-title">
-      <span>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
-        autores!</span>
+      <span
+        >Tem uma dúvida ou sugestão? Compartilhe seu feedback com os
+        autores!</span
+      >
     </div>
 
     <form
       (ngSubmit)="submit()"
       [formGroup]="questionForm"
       #formDir="ngForm"
-      class="ops-topic-subject">
+      class="ops-topic-subject"
+    >
       <h1>Assunto</h1>
       <input
         class="subject"
@@ -48,11 +51,13 @@
         <div class="box-field">
           <textarea rows="5" formControlName="text" class="content"></textarea>
           <div
-            *ngIf="text.invalid && formDir.submitted" class="validation-error">
+            *ngIf="text.invalid && formDir.submitted"
+            class="validation-error"
+          >
             <p>A Conteúdo é obrigatória.</p>
           </div>
           <div class="content-footer">
-            <button (click)="addQuestion" type="submit">Enviar</button>
+            <button (click)="(addQuestion)" type="submit">Enviar</button>
           </div>
         </div>
       </div>
@@ -76,4 +81,3 @@
     <div class="line3"></div>
   </div>
 </div>
-

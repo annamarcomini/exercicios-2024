@@ -1,44 +1,43 @@
 .comments-container {
- padding-top: 18px;
- padding-bottom: 35px;
- padding-left: 23.19px;
- padding-right: 23.19px;
- border: 1.5px solid var(--details--margin);
- font-family: "Quicksand", sans-serif;
- background-color: var(--white-200);
+  padding-top: 18px;
+  padding-bottom: 35px;
+  padding-left: 23.19px;
+  padding-right: 23.19px;
+  border: 1.5px solid var(--details--margin);
+  font-family: "Quicksand", sans-serif;
+  background-color: var(--white-200);
 }
 
-.header{
- display: flex;
- flex-direction: row;
- justify-content: space-between;
-
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.header h1{
- font-size: 12px;
- font-weight: bold;
+.header h1 {
+  font-size: 12px;
+  font-weight: bold;
 
- color: var(--content-other-letters-300);
- margin-bottom: 10px;
+  color: var(--content-other-letters-300);
+  margin-bottom: 10px;
 }
 
-.header span{
- display: flex;
- justify-content: center;
- align-items: center;
- color: var(--content-title);
- font-size: 14px;
- font-weight: bold;
+.header span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--content-title);
+  font-size: 14px;
+  font-weight: bold;
 }
 
-.header img{
- height: 20px;
- width: 30px;
- margin-left: 30px;
+.header img {
+  height: 20px;
+  width: 30px;
+  margin-left: 30px;
 }
 
-.content{
- font-size: 14px;
- color: var(--content-other-letters-500);
+.content {
+  font-size: 14px;
+  color: var(--content-other-letters-500);
 }

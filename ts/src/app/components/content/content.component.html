@@ -51,11 +51,13 @@
           Palavras-chaves:
           <strong>{{ article.keyWords }}</strong>
         </p>
-         <br/>
-        <h1><strong>Autores:</strong><br/></h1>
-        <p class="parafOne" *ngFor="let author of article.authors">{{ author }}<br/></p>
-         <br/>
-        <span *ngFor="let local of article.locals"> {{ local }} <br/></span>
+        <br />
+        <h1><strong>Autores:</strong><br /></h1>
+        <p class="parafOne" *ngFor="let author of article.authors">
+          {{ author }}<br />
+        </p>
+        <br />
+        <span *ngFor="let local of article.locals"> {{ local }} <br /></span>
       </div>
     </div>
   </div>

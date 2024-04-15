@@ -60,7 +60,7 @@
   font-weight: bold;
   font-family: "Quicksand", sans-serif;
   background: linear-gradient(to top, #ee7a3a, #ffb354);
-  
+
   transition: 0.2s;
 }
 .btn-create-topic button:hover {
@@ -158,11 +158,10 @@
   filter: brightness(0.9);
 }
 
-
 .box-field {
-overflow: hidden;
-border-radius: 3px;
-border: 1px solid #cccccc;
+  overflow: hidden;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
 }
 
 .line2 {
@@ -174,12 +173,12 @@ border: 1px solid #cccccc;
 }
 
 //success
-.topic-success{
- display: flex;
+.topic-success {
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
- width: 100%;
+  width: 100%;
 }
 
 .topic-success h1 {
@@ -192,18 +191,17 @@ border: 1px solid #cccccc;
   font-family: "Quicksand", sans-serif;
   color: var(--content-other-letters-400);
   font-size: 14px;
-   margin-top: 18px;
-   margin-bottom: 29px;
+  margin-top: 18px;
+  margin-bottom: 29px;
 }
 
 .topic-success a {
   font-family: "Quicksand", sans-serif;
   color: var(--orange);
   font-size: 14px;
- 
 }
 
-.new-topic-button{
+.new-topic-button {
   margin-top: 47px;
 }
 
@@ -226,7 +224,6 @@ border: 1px solid #cccccc;
 .new-topic-button button:hover {
   filter: brightness(0.9);
 }
-
 
 .line3 {
   border-top: 1px solid var(--content-margin);

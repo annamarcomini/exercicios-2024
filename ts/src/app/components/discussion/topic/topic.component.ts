@@ -50,7 +50,7 @@ export class TopicComponent implements OnInit {
       return;
     }
 
-    this.handleNewSuccessMsg()
+    this.handleNewSuccessMsg();
 
     this.addQuestion({
       title: this.questionForm.value.title,
