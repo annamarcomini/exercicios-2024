@@ -1,4 +1,4 @@
-.discuss-box {
+.discussion-box {
   margin-top: 30px;
   display: flex;
   flex-direction: column;
@@ -7,7 +7,7 @@
   border: 2px solid var(--details--margin);
 }
 
-.discuss-header {
+.discussion-header {
   width: 100%;
   height: 45px;
   border-bottom: 2px solid var(--details--margin);
@@ -15,7 +15,7 @@
   display: flex;
 }
 
-.discuss-header span {
+.discussion-header span {
   font-size: 20px;
   height: 20px;
   color: var(--details--header-letter);
@@ -27,7 +27,7 @@
   justify-content: center;
 }
 
-.discuss-content {
+.discussion-content {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 15px;
