@@ -42,3 +42,23 @@ footer {
 .logo-footer a:hover {
   text-decoration: underline;
 }
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+}
+
+.footer-content p {
+  font-family: "Roboto";
+  font-size: 15px;
+  line-height: 16px;
+  color: var(--content-other-letters-200);
+  margin-top: 6px;
+  margin-bottom: 5px;
+}
+
+.footer-content span {
+  font-weight: 700;
+  color: var(--content-other-letters-200);
+}
