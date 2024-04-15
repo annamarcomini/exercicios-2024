@@ -1,4 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+type Question = {
+  title: string;
+  text: string;
+};
 
 @Component({
   selector: 'app-content',
@@ -6,6 +10,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./content.component.scss'],
 })
 export class ContentComponent implements OnInit {
+  @Input() userData!: {
+    name: string;
+    imageURL: string;
+    email: string;
+    notifications: { user: string; message: string }[];
+  }; 
+  
+  addQuestion = (question: Question) => {
+    let newQuestion = {
+      likes: 0,
+      answers: [],
+      author: this.userData.name,
+      ...question,
+    };
+    console.log(newQuestion);
+    this.article.questions.splice(0, 0, newQuestion);
+  };
+
   article = {
     title:
       'Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP',

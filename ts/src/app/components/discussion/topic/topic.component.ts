@@ -1,5 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
+
+type Question = {
+  title: string;
+  text: string;
+};
 
 @Component({
   selector: 'app-topic',
@@ -20,6 +25,7 @@ export class TopicComponent implements OnInit {
   }
 
   questionForm!: FormGroup;
+  @Input() addQuestion!: (question: Question) => void;
 
   constructor() {}
 
