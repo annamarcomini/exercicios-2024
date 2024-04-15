@@ -1,1 +1,34 @@
-
+<div class="answered-topic">
+  <div
+    [ngClass]="
+      question.answers.length === 0
+        ? 'ops-topic-subject-blur'
+        : 'ops-topic-subject'
+    "
+    (click)="onSubjectClick()"
+  >
+    <a>{{ question.title }}</a>
+    <p>{{ question.author }}</p>
+    <span>{{ question.text }}</span>
+    <div class="question-footer">
+      <button>
+        <img src="/assets/images/png/info.png" />
+      </button>
+      <button>
+        <img src="/assets/images/svg/fav.svg" />
+      </button>
+      <p>
+        {{ question.likes }} {{ question.likes === 1 ? " like" : " likes" }}
+      </p>
+      <p>
+        {{ question.answers.length }}
+        {{ question.answers.length === 1 ? " resposta" : " respostas" }}
+      </p>
+    </div>
+  </div>
+  <div *ngIf="question.answers.length === 0" class="overlay-text">
+    <img src="/assets/images/svg/checkRb.svg" />
+    <p>Aguardando feedback dos autores</p>
+    <a>Editar tópico</a>
+  </div>
+</div>

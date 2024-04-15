@@ -3,6 +3,9 @@
     <span>Discussões</span>
   </div>
   <div class="discussion-content">
-    <app-topic></app-topic>
+    <app-topic [addQuestion]="addQuestion"></app-topic>
+    <ng-container *ngFor="let question of questions">
+      <app-answered-topic [question]="question"></app-answered-topic>
+    </ng-container>
   </div>
 </div>

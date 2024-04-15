@@ -1,5 +1,5 @@
 <div class="topic-box">
- <div *ngIf="!showFormTopic  && !showSuccessMessage" class="new-topic">
+  <div *ngIf="!showFormTopic && !showSuccessMessage" class="new-topic">
     <h1>Compartilhe suas ideias ou dúvidas com os autores!</h1>
 
     <div class="new-topic-images">
@@ -49,16 +49,17 @@
           <textarea rows="5" formControlName="text" class="content"></textarea>
           <div
             *ngIf="text.invalid && formDir.submitted" class="validation-error">
-            <p>A Conteúdo é obrigatório.</p>
+            <p>A Conteúdo é obrigatória.</p>
           </div>
           <div class="content-footer">
-            <button type="submit">Enviar</button>
+            <button (click)="addQuestion" type="submit">Enviar</button>
           </div>
         </div>
       </div>
     </form>
     <div class="line2"></div>
   </div>
+
   <div *ngIf="showSuccessMessage" class="topic-success">
     <h1>Seu tópico foi enviado com sucesso! :D</h1>
 

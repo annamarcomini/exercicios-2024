@@ -59,6 +59,9 @@
       </div>
     </div>
   </div>
-   <app-resume [summary]="article.summary"></app-resume>
-   <app-discussion></app-discussion>
+  <app-resume [summary]="article.summary"></app-resume>
+  <app-discussion
+    [questions]="article.questions"
+    [addQuestion]="addQuestion"
+  ></app-discussion>
 </div>
