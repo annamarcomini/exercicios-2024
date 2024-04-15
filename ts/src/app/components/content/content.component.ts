@@ -15,8 +15,8 @@ export class ContentComponent implements OnInit {
     imageURL: string;
     email: string;
     notifications: { user: string; message: string }[];
-  }; 
-  
+  };
+
   addQuestion = (question: Question) => {
     let newQuestion = {
       likes: 0,
@@ -24,7 +24,7 @@ export class ContentComponent implements OnInit {
       author: this.userData.name,
       ...question,
     };
-    console.log(newQuestion);
+
     this.article.questions.splice(0, 0, newQuestion);
   };
 
