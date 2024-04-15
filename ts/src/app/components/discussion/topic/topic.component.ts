@@ -16,6 +16,8 @@ export class TopicComponent implements OnInit {
 
   handleNewTopic(): void {
     this.showFormTopic = true;
+    this.showSuccessMessage = false;
+    this.questionForm.reset();
   }
 
   showSuccessMessage = false;
@@ -48,6 +50,11 @@ export class TopicComponent implements OnInit {
       return;
     }
 
-    this.handleNewSuccessMsg();
+    this.handleNewSuccessMsg()
+
+    this.addQuestion({
+      title: this.questionForm.value.title,
+      text: this.questionForm.value.text,
+    });
   }
 }
