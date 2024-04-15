@@ -10,7 +10,7 @@
   position: relative;
   flex-direction: row;
   border: 0;
-  border-bottom: 3px solid var(--content-margin);
+  border-bottom: 3px solid var(--light-gray-400);
   height: 34px;
   width: 220px;
 }
@@ -27,6 +27,6 @@
 
 .text-button {
   margin-left: 24px;
-  color: var(--header-letter-color);
+  color: var(--gray-100);
   text-decoration: none;
 }

@@ -21,7 +21,7 @@
 }
 
 .title-box h2 {
-  color: var(--content-title);
+  color: var(--orange-200-100);
   font-weight: bold;
   font-size: 20px;
 }
@@ -47,7 +47,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--content-title);
+  background-color: var(--orange-200-100);
   width: 121px;
   height: 31px;
   color: var(--bg-color);
@@ -68,7 +68,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--content-title);
+  background-color: var(--orange-200-100);
   width: 43px;
   height: 31px;
   color: var(--bg-color);
@@ -87,7 +87,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--content-title);
+  background-color: var(--orange-200-100);
   width: 43px;
   height: 31px;
   color: var(--bg-color);
@@ -112,7 +112,7 @@
 }
 
 .details-title-box span {
-  color: var(--content-title);
+  color: var(--orange-200-100);
   font-size: 14px;
 }
 
@@ -133,21 +133,21 @@
   flex-direction: column;
   width: 242px;
   height: 439px;
-  border: 2px solid var(--details--margin);
+  border: 2px solid var(--light-gray-200);
 }
 
 .details-header {
   width: 242px;
   height: 45px;
-  border-bottom: 2px solid var(--details--margin);
-  background-color: var(--header-bg-color);
+  border-bottom: 2px solid var(--light-gray-200);
+  background-color: var(--light-gray-100);
   display: flex;
 }
 
 .details-header span {
   font-size: 20px;
   height: 20px;
-  color: var(--details--header-letter);
+  color: var(--dark-gray-700);
   font-weight: 600;
   margin-left: 15px;
   margin-top: 11px;
@@ -170,7 +170,7 @@
   font-family: "Quicksand", sans-serif;
   margin-top: 0;
   font-size: 12px;
-  color: var(--content-other-letters-300);
+  color: var(--dark-gray-400);
   margin-bottom: 0;
 }
 
@@ -178,13 +178,13 @@
   font-family: "Quicksand", sans-serif;
   margin: 0;
   font-size: 14px;
-  color: var(--content-other-letters-300);
+  color: var(--dark-gray-400);
 }
 
 .details-texts-box .parafOne {
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
-  color: var(--content-other-letters-300);
+  color: var(--dark-gray-400);
   margin-bottom: 0;
 }
 

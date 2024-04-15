@@ -4,21 +4,21 @@
   flex-direction: column;
   align-items: center;
   justify-items: center;
-  border: 2px solid var(--details--margin);
+  border: 2px solid var(--light-gray-200);
 }
 
 .discussion-header {
   width: 100%;
   height: 45px;
-  border-bottom: 2px solid var(--details--margin);
-  background-color: var(--header-bg-color);
+  border-bottom: 2px solid var(--light-gray-200);
+  background-color: var(--light-gray-100);
   display: flex;
 }
 
 .discussion-header span {
   font-size: 20px;
   height: 20px;
-  color: var(--details--header-letter);
+  color: var(--dark-gray-700);
   font-weight: 600;
   margin-left: 15px;
   margin-top: 11px;

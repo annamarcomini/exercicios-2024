@@ -8,7 +8,7 @@ footer {
 }
 
 .line {
-  border-top: 1px solid var(--content-margin);
+  border-top: 1px solid var(--light-gray-400);
   width: 100%;
   margin-bottom: 20px;
 }
@@ -53,12 +53,12 @@ footer {
   font-family: "Roboto";
   font-size: 15px;
   line-height: 16px;
-  color: var(--content-other-letters-200);
+  color: var(--dark-gray-500);
   margin-top: 6px;
   margin-bottom: 5px;
 }
 
 .footer-content span {
   font-weight: 700;
-  color: var(--content-other-letters-200);
+  color: var(--dark-gray-500);
 }

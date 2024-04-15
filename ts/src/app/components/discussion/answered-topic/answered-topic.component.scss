@@ -16,7 +16,7 @@
   flex-direction: column;
 
   a {
-    color: var(--content-title);
+    color: var(--orange-200-100);
     text-decoration: underline;
     font-weight: bold;
     font-size: 16px;
@@ -33,7 +33,7 @@
   padding-bottom: 18px;
 
   a {
-    color: var(--content-title);
+    color: var(--orange-200-100);
     text-decoration: underline;
     font-weight: bold;
     font-size: 16px;
@@ -41,7 +41,7 @@
   }
 
   p {
-    color: var(--content-other-letters-300);
+    color: var(--dark-gray-400);
     font-size: 12px;
     font-family: "Quicksand", sans-serif;
     margin-top: 3px;
@@ -49,7 +49,7 @@
 
   span {
     margin-top: 10px;
-    color: var(--content-other-letters-500);
+    color: var(--dark-gray-200);
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
   }
@@ -65,14 +65,14 @@
   position: relative;
 
   a {
-    color: var(--content-title);
+    color: var(--orange-200-100);
     font-weight: bold;
     font-size: 16px;
     font-family: "Quicksand", sans-serif;
   }
 
   p {
-    color: var(--content-other-letters-300);
+    color: var(--dark-gray-400);
     font-size: 12px;
     font-family: "Quicksand", sans-serif;
     margin-top: 3px;
@@ -80,7 +80,7 @@
 
   span {
     margin-top: 10px;
-    color: var(--content-other-letters-500);
+    color: var(--dark-gray-200);
     font-size: 14px;
     font-family: "Quicksand", sans-serif;
   }

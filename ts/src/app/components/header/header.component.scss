@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: var(--header-bg-color);
+  background-color: var(--light-gray-100);
 
   .box-1 {
     display: flex;
@@ -34,19 +34,19 @@ header {
   }
 
   .texts span {
-    color: var(--header-letter-color);
+    color: var(--gray-100);
     font-size: 14px;
     margin-bottom: 4px;
   }
 
   .texts p {
-    color: var(--header-letter-color);
+    color: var(--gray-100);
     font-size: 22px;
     margin: 0;
   }
 
   .span-1 {
-    color: var(--header-letter-color);
+    color: var(--gray-100);
     font-size: 14px;
     margin-bottom: 4px;
   }

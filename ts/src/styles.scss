@@ -1,43 +1,49 @@
 :root {
   --bg-color: #ffff;
-  --white-200: #F8F8F8;
-  --header-bg-color: #fdf1eb;
-  --header-letter-color: #725C5C;
-  --header-buttonPT-letter-color: #333333;
-  --header-buttonPT-margin: #CCCCCC;
-  --content-title: #ED7839;
-  --content-other-title: #4E4E4E;
-  --content-other-letters-500: #4D4D4D;
-  --content-other-letters-400: #595959;
-  --content-other-letters-300: #5C5C5C;
-  --content-other-letters-200: #757575;
-  --content-other-letters-100: #ADA0A0;
-  --details--header-letter: #4E4E4E;
-  --details--footer: #ADA0A0;
-  --details--margin:#ECECEC;
-  --content-scroll: #BFBFBF;
-  --content-margin: #E7E7E7;
-  --sidebar-header-bg: #EE7A3A #FFB354;
-  --orange: #F48F44
+  --white-200: #f8f8f8;
+  --light-gray-100: #fdf1eb;
+  --gray-100: #725c5c;
+  --gray-200: #333333;
+  --gray-300: #cccccc;
+  --orange-200-100: #ed7839;
+  --dark-gray-100: #4e4e4e;
+  --dark-gray-200: #4d4d4d;
+  --dark-gray-300: #595959;
+  --dark-gray-400: #5c5c5c;
+  --dark-gray-500: #757575;
+  --dark-gray-600: #ada0a0;
+  --dark-gray-700: #4e4e4e;
+  --dark-gray-800: #ada0a0;
+  --light-gray-200: #ececec;
+  --light-gray-300: #bfbfbf;
+  --light-gray-400: #e7e7e7;
+
+  --orange-200: #f48f44;
 }
 
-body{
- margin: 0;
- padding: 0;
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 p {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }

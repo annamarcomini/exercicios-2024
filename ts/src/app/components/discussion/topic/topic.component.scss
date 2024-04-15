@@ -15,7 +15,7 @@
 }
 
 .new-topic h1 {
-  color: var(--content-title);
+  color: var(--orange-200-100);
   font-size: 18px;
   margin-top: 15px;
 }
@@ -39,7 +39,7 @@
 
 .new-topic p {
   font-family: "Quicksand", sans-serif;
-  color: var(--content-other-letters-400);
+  color: var(--dark-gray-300);
   font-size: 14px;
 }
 
@@ -68,7 +68,7 @@
 }
 
 .line {
-  border-top: 1px solid var(--content-margin);
+  border-top: 1px solid var(--light-gray-400);
   position: relative;
   top: -16px;
   width: 100%;
@@ -95,7 +95,7 @@
 .form-title span {
   font-family: "Quicksand", sans-serif;
   font-size: 14px;
-  color: var(--content-other-letters-300);
+  color: var(--dark-gray-400);
 }
 
 .ops-topic-subject {
@@ -104,7 +104,7 @@
 }
 
 .ops-topic-subject h1 {
-  color: var(--content-title);
+  color: var(--orange-200-100);
   font-size: 16px;
   margin-bottom: 1px;
 }
@@ -165,7 +165,7 @@
 }
 
 .line2 {
-  border-top: 1px solid var(--content-margin);
+  border-top: 1px solid var(--light-gray-400);
   position: relative;
   width: 100%;
   margin-top: 15px;
@@ -182,14 +182,14 @@
 }
 
 .topic-success h1 {
-  color: var(--content-title);
+  color: var(--orange-200-100);
   font-size: 18px;
   margin-top: 15px;
 }
 
 .topic-success p {
   font-family: "Quicksand", sans-serif;
-  color: var(--content-other-letters-400);
+  color: var(--dark-gray-300);
   font-size: 14px;
   margin-top: 18px;
   margin-bottom: 29px;
@@ -197,7 +197,7 @@
 
 .topic-success a {
   font-family: "Quicksand", sans-serif;
-  color: var(--orange);
+  color: var(--orange-200);
   font-size: 14px;
 }
 
@@ -226,7 +226,7 @@
 }
 
 .line3 {
-  border-top: 1px solid var(--content-margin);
+  border-top: 1px solid var(--light-gray-400);
   position: relative;
   top: -16px;
   width: 100%;
