@@ -13,6 +13,7 @@ import { ResumeComponent } from './components/resume/resume.component';
 import { DiscussionComponent } from './components/discussion/discussion.component';
 import { AnsweredTopicComponent } from './components/discussion/answered-topic/answered-topic.component';
 import { TopicComponent } from './components/discussion/topic/topic.component';
+import { CommentsComponent } from './components/discussion/comments/comments.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { TopicComponent } from './components/discussion/topic/topic.component';
     DiscussionComponent,
     AnsweredTopicComponent,
     TopicComponent,
+    CommentsComponent,
   ],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule,],
   providers: [],
