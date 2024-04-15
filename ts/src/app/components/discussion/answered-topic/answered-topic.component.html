@@ -33,8 +33,9 @@
   </div>
 </div>
 
-<ng-container
-  ><app-answer
-    
-  ></app-answer
+<ng-container *ngIf="showAnswers"
+  ><app-comments
+    *ngFor="let answer of question.answers"
+    [answer]="answer"
+  ></app-comments
 ></ng-container>
