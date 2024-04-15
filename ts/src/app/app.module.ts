@@ -14,6 +14,7 @@ import { DiscussionComponent } from './components/discussion/discussion.componen
 import { AnsweredTopicComponent } from './components/discussion/answered-topic/answered-topic.component';
 import { TopicComponent } from './components/discussion/topic/topic.component';
 import { CommentsComponent } from './components/discussion/comments/comments.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { CommentsComponent } from './components/discussion/comments/comments.com
     AnsweredTopicComponent,
     TopicComponent,
     CommentsComponent,
+    FooterComponent,
   ],
   imports: [BrowserModule, FormsModule, ReactiveFormsModule,],
   providers: [],
