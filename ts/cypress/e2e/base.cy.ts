@@ -4,7 +4,9 @@ describe('checa elementos básicos', () => {
   });
 
   it('titulo do trabalho existe', () => {
-    cy.get('h2').contains('Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP');
+    cy.get('h2').contains(
+      'Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP'
+    );
     cy.compareSnapshot('Trabalho - Base');
   });
 
@@ -18,25 +20,31 @@ describe('checa elementos básicos', () => {
   });
 
   it('expandir tópico funciona', () => {
-    cy.get('.answered-topic .ops-topic-subject').click();
+    cy.get('.answered-topic .ops-topic-subject').click({ multiple: true });
     cy.get('.comments-container').should('exist');
     cy.compareSnapshot('Trabalho - Card de topico expandido');
   });
 
   it('clicar em `criar tópico` exibe o formulário', () => {
     cy.get('.btn-create-topic').click();
-    cy.get('button').contains('Enviar')
+    cy.get('button').contains('Enviar');
     cy.get('form').contains('Assunto');
     cy.get('form').contains('Conteúdo');
-    cy.get('input.subject').invoke('attr', 'placeholder').should('contain', 'Defina um tópico sucinto para notificar os autores...');
+    cy.get('input.subject')
+      .invoke('attr', 'placeholder')
+      .should(
+        'contain',
+        'Defina um tópico sucinto para notificar os autores...'
+      );
     cy.compareSnapshot('Trabalho - Criando novo topico');
   });
 
   it('enviar o formulário exibe mensagem de sucesso', () => {
     cy.get('.btn-create-topic').click();
-    cy.get('button').click();
+    cy.get('input.subject').type('Some subject');
+    cy.get('textarea.content').type('Some content');
+    cy.get('button').contains('Enviar').click();
     cy.get('body').contains('Aguardando feedback dos autores');
     cy.compareSnapshot('Trabalho - Topico enviado');
   });
-
-})
+});
