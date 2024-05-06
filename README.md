@@ -1,6 +1,6 @@
 ## 🚀 Tecnologias/ Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+Esse projeto foi desenvolvido com as seguintes tecnologias/ This project was developed with the following technologies:
 
 - Angular.JS e SASS
 - Typescript
