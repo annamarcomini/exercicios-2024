@@ -17,13 +17,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Execute o comando Yarn/ Run the Yarn command
 - Execute o comando Ng serve/ Run the Ng serve command
 
-![Captura de tela 2024-05-05 213008](https://github.com/annamarcomini/github-explorer/assets/116853315/8862821a-906f-4859-8c53-f806b0328040)
-![Captura de tela 2024-05-05 212956](https://github.com/annamarcomini/github-explorer/assets/116853315/7ef96c54-eabf-4541-82d8-e369097ab999)
-![Captura de tela 2024-05-05 212943](https://github.com/annamarcomini/github-explorer/assets/116853315/9b8ee6a2-c3ac-4dd7-96db-ee7ecf8fcd38)
-![Captura de tela 2024-05-05 212813](https://github.com/annamarcomini/github-explorer/assets/116853315/79ed3f71-0ceb-49a0-898c-d7e9156c1e85)
-![Captura de tela 2024-05-05 213047](https://github.com/annamarcomini/github-explorer/assets/116853315/0e2e5e29-e811-4d8b-8c9f-6f2d2f827a61)
-![Captura de tela 2024-05-05 213032](https://github.com/annamarcomini/github-explorer/assets/116853315/47cc25d3-d10f-4f20-b37f-fe46f871fd32)
-![Captura de tela 2024-05-05 213019](https://github.com/annamarcomini/github-explorer/assets/116853315/f4831cbd-d1d1-4679-a4c7-44fec0ab6fb9)
+![Captura de tela 2024-05-05 212813](https://github.com/annamarcomini/github-explorer/assets/116853315/6debafd4-290d-4f7e-b16d-a0e29e65f390)
+![Captura de tela 2024-05-05 212943](https://github.com/annamarcomini/github-explorer/assets/116853315/3d6fd148-645d-4575-9f5d-eba63027d1d4)
+![Captura de tela 2024-05-05 212956](https://github.com/annamarcomini/github-explorer/assets/116853315/6fb8e45b-2fc5-4ae1-9360-7df6f186aa43)
+![Captura de tela 2024-05-05 213008](https://github.com/annamarcomini/github-explorer/assets/116853315/db54117f-3291-4070-8cef-140c8a491bb4)
+![Captura de tela 2024-05-05 213019](https://github.com/annamarcomini/github-explorer/assets/116853315/d40506cb-7b13-47b0-adf3-8a9e243c481f)
+![Captura de tela 2024-05-05 213032](https://github.com/annamarcomini/github-explorer/assets/116853315/63bed865-aae4-4519-9daf-7d4e1fcd8e6e)
+![Captura de tela 2024-05-05 213047](https://github.com/annamarcomini/github-explorer/assets/116853315/5e0fb9ff-02e8-4045-9563-7ab5a8a36327)
+
   
 
 
